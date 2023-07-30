@@ -1,0 +1,32 @@
+{
+  "name": "arraybuffer_1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ustasnov/arraybuffer_1.git"
+  },
+  "author": "ustasnov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ustasnov/arraybuffer_1/issues"
+  },
+  "homepage": "https://github.com/ustasnov/oarraybuffer_1op#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.22.5",
+    "@babel/core": "^7.22.5",
+    "@babel/preset-env": "^7.22.5",
+    "eslint": "^8.43.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "jest": "^29.5.0",
+    "jest-babel": "^1.0.1"
+  },
+  "dependencies": {
+    "core-js": "^3.31.0"
+  }
+}
