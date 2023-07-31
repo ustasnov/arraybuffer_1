@@ -99,8 +99,8 @@ test('health should be 0 when damage method decrease health less than 0', () => 
 test.each([
   ['character1', 25, 25, false, Bowerman],
   ['character2', 40, 10, false, Swordsman],
-  ['character3', 100, 40, true, Magician],
-  ['character4', 100, 40, true, Daemon],
+  ['character3', 100, 40, false, Magician],
+  ['character4', 100, 40, false, Daemon],
   ['character5', 25, 25, false, Undead],
   ['character6', 40, 10, false, Zombie],
 ])(

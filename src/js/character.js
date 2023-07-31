@@ -24,7 +24,9 @@ export default class Character {
   }
 
   get attack() {
-    return this.attackValue;
+    return (this.attackValue * Math.max(11 - this.attackDistance, 0)) / 10
+      - (this.stonedValue && (this.type === 'Magician' || this.type === 'Daemon')
+        ? Math.log2(this.attackDistance) * 5 : 0);
   }
 
   set attack(value) {
